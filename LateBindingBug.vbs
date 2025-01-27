@@ -1,0 +1,1 @@
+Function which uses late binding to access an object's method might fail silently if the method doesn't exist.  VBScript doesn't throw a runtime error in this scenario, leading to unexpected behavior.
